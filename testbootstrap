@@ -154,5 +154,69 @@
         </div>
     </div>
 </div>
+ <!-- media start -->
+    <!--start pizza -->
+    <div class="container">
+        <div class="row mediablock ">
+            <div class="media col-12 col-md-10 order-2 order-md-1">
+                <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/uthappizza.png" alt="Uthappizza">
+                <div class="media-body">
+                    <h2 class="mt-0">Uthappizza <span class="badge badge-danger">HOT</span> <span
+                            class="badge badge-pill badge-secondary">$4.99</span></h2>
+                    <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and
+                        Italian pizza, topped with Cerignola olives, ripe vine
+                        cherry tomatoes, Vidalia onion, Guntur chillies and
+                        Buffalo Paneer.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-2 order-1 order-md-2 mb-4 ">
+                <h2>Our LipSmacking Culinary Creations</h2>
+            </div>
+        </div>
+        <!-- end pizza bảy món -->
+        <hr>
+        <!-- start Buffet -->
 
+        <div class="row mediablock">
+            <div class="col-12 col-md-2 mb-4">
+                <h2>This month's Promotions</h2>
+            </div>
+            <div class="media col-12 col-md-10">
+                <div class="media-body">
+                    <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">HOT</span></h2>
+                    <p class="d-none d-sm-block">Featuring mounthwatering combination with a choice of five
+                        different
+                        salads,six enticing appetizes, six main entrees and
+                        five choicest desserts.Free flowing bubbly and soft drink. All for just $19.19 per
+                        person
+                    </p>
+                </div>
+                <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/buffet.png" alt="Alberto Somayya">
+            </div>
+
+        </div>
+        <!-- end buffet -->
+        <hr>
+        <!--start anh ấn độ :v -->
+        <div class="row mediablock">
+            <div class="media col-md-10 col-12 order-2 order-md-1">
+                <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/alberto.png" alt="Alberto Somayya">
+                <div class="media-body">
+                    <h2 class="mt-0">Alberto Somayya </h2>
+                    <h4>Executive Chef</h4>
+                    <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide
+                        International experience having worked closely with
+                        whos-who in the culinary world, he specializes in
+                        creating mouthwatering Indo-Italian fusion experiences.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-2 order-1 order-md-2 mb-4">
+                <h2>Meet our Culinary Specialist</h2>
+            </div>
+        </div>
+        <!-- end anh an do -->
+        <hr>
+    </div>
+    <!-- media end -->
 </html>
