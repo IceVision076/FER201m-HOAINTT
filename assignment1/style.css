@@ -1,5 +1,6 @@
 body {
     background-color: #333333;
+    font-family: Serif ;
 }
 .product {
     margin-top: 20px;
@@ -8,3 +9,10 @@ body {
 /* .cardItem {
     margin: 0% 1%;
 } */
+.custom-button {
+    width: 100%;
+}
+.custom-badger {
+    width: 37%;
+    font-size: large;
+}

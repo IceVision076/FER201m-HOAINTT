@@ -11,13 +11,12 @@
     <link rel="stylesheet" href="/node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="/node_modules/bootstrap-social/bootstrap-social.css">
     <link href="style.css" rel="stylesheet">
-
 </head>
 
 <body>
     <!-- start navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Your Logo</a>
+        <a class="navbar-brand font-weight-bold" href="#">Pizza House</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -36,13 +35,16 @@
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                <!-- <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button> -->
+                <button class="btn btn-danger my-2 my-sm-0" type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
             </form>
         </div>
     </nav>
     <!-- end navbar -->
     <!-- start carousel -->
-    <div class="container">
+    <div class="container-fluid">
         <div class="row row-content">
             <div class="col">
                 <div id="mycarousel" class="carousel slide" data-ride="carousel">
@@ -51,10 +53,10 @@
                         <div class="carousel-item active">
                             <img class="d-block img-fluid" src="Images/pizza1.jpg" alt="Uthappizza">
                             <div class="carousel-caption d-none d-md-block">
-                                <h2>Uthappizza
-                                    <span class="badge badge-danger">HOT</span>
-                                    <span class="badge badge-pill badge-default">$4.99</span>
+                                <h2>Neapolitan Pizza
                                 </h2>
+                                <p>If you are looking for a traditional Italian pizza,the Neapolitan is the best option
+                                </p>
                             </div>
                         </div>
                         <!-- end caorousel pizza1 -->
@@ -63,9 +65,10 @@
                         <div class="carousel-item">
                             <img class="d-block img-fluid" src="Images/pizza2.jpg" alt="Uthappizza">
                             <div class="carousel-caption d-none d-md-block">
-                                <h2>Weekend Grand Buffet
-                                    <span class="badge badge-pill badge-default">$4.99</span>
+                                <h2>Neapolitan Pizza
                                 </h2>
+                                <p>If you are looking for a traditional Italian pizza,the Neapolitan is the best option
+                                </p>
                             </div>
                         </div>
                         <!-- end caorousel pizza 2 -->
@@ -74,7 +77,10 @@
                         <div class="carousel-item">
                             <img class="d-block img-fluid" src="Images/pizza3.jpg" alt="Uthappizza">
                             <div class="carousel-caption d-none d-md-block">
-                                <h2>Executive Chef</h2>
+                                <h2>Neapolitan Pizza
+                                </h2>
+                                <p>If you are looking for a traditional Italian pizza,the Neapolitan is the best option
+                                </p>
                             </div>
 
                         </div>
@@ -84,7 +90,10 @@
                         <div class="carousel-item">
                             <img class="d-block img-fluid" src="Images/pizza4.jpg" alt="Uthappizza">
                             <div class="carousel-caption d-none d-md-block">
-                                <h2>Executive Chef</h2>
+                                <h2>Neapolitan Pizza
+                                </h2>
+                                <p>If you are looking for a traditional Italian pizza,the Neapolitan is the best option
+                                </p>
                             </div>
 
                         </div>
@@ -93,7 +102,10 @@
                         <div class="carousel-item">
                             <img class="d-block img-fluid" src="Images/pizza5.jpg" alt="Uthappizza">
                             <div class="carousel-caption d-none d-md-block">
-                                <h2>Executive Chef</h2>
+                                <h2>Neapolitan Pizza
+                                </h2>
+                                <p>If you are looking for a traditional Italian pizza,the Neapolitan is the best option
+                                </p>
                             </div>
 
                         </div>
@@ -125,91 +137,117 @@
     <!-- product start -->
     <div class="container product">
         <div class="row">
+
             <div class="cardItem col-md-3">
                 <div class="card">
                     <img src="Images/menu1.jpg" class="card-img-top" alt="Product Image">
+                    <div class="card-img-container position-relative"></div>
                     <div class="card-body">
-                        <h5 class="card-title">Product Name</h5>
-                        <p class="card-text">Product Description</p>
-                        <p class="card-text">$99.99</p>
+                        <h5 class="card-title">Margherita Pizza</h5>
+                        <!-- <p class="card-text">Product Description</p> -->
+                        <p class="card-text text-warning"><del class ="text-dark">$40.00</del>$24.00</p>
                         <div class="text-center">
-                            <a href="#" class="btn btn-dark">Add to Cart</a>
+                            <button class="btn btn-dark custom-button">Buy</button>
                         </div>
                     </div>
+                    <span class="badge badge-warning position-absolute top-left custom-badger">SALE</span>
                 </div>
             </div>
+
             <div class="cardItem col-md-3">
                 <div class="card">
                     <img src="Images/menu2.jpg" class="card-img-top" alt="Product Image">
                     <div class="card-body">
-                        <h5 class="card-title">Product Name</h5>
-                        <p class="card-text">Product Description</p>
-                        <p class="card-text">$99.99</p>
+                        <h5 class="card-title">Mushroom Pizza</h5>
+                        <!-- <p class="card-text">Product Description</p> -->
+                        <p class="card-text">25.00</p>
                         <div class="text-center">
-                            <a href="#" class="btn btn-dark">Add to Cart</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cardItem col-md-3">
-                <div class="card">
-                    <img src="Images/menu3.jpg" class="card-img-top" alt="Product Image">
-                    <div class="card-body">
-                        <h5 class="card-title">Product Name</h5>
-                        <p class="card-text">Product Description</p>
-                        <p class="card-text">$99.99</p>
-                        <div class="text-center">
-                            <a href="#" class="btn btn-dark">Add to Cart</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cardItem col-md-3">
-                <div class="card">
-                    <img src="Images/menu4.jpg" class="card-img-top" alt="Product Image">
-                    <div class="card-body">
-                        <h5 class="card-title">Product Name</h5>
-                        <p class="card-text">Product Description</p>
-                        <p class="card-text">$99.99</p>
-                        <div class="text-center">
-                            <a href="#" class="btn btn-dark">Add to Cart</a>
+                            <button class="btn btn-dark custom-button">Buy</button>
                         </div>
                     </div>
                 </div>
             </div>
 
+            <div class="cardItem col-md-3">
+                <div class="card">
+                    <div class="card-img-container position-relative">
+                        <img src="Images/menu3.jpg" class="card-img-top" alt="Product Image">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Hawaiian Pizza</h5>
+                        <!-- <p class="card-text">Product Description</p> -->
+                        <p class="card-text">$30.00</p>
+
+                        <div class="text-center">
+                            <button class="btn btn-dark custom-button">Buy</button>
+                        </div>
+                    </div>
+                    <span class="badge badge-warning position-absolute top-left custom-badger">NEW</span>
+                </div>
+            </div>
+
+            <div class="cardItem col-md-3">
+                <div class="card">
+                    <div class="card-img-container position-relative">
+                        <img src="Images/menu4.jpg" class="card-img-top" alt="Product Image">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Pesto Pizza</h5>
+                        <!-- <p class="card-text">Product Description</p> -->
+                        <p class="card-text text-warning"><del class ="text-dark">50.00</del>$30.00</p>
+                        <div class="text-center">
+                            <button class="btn btn-dark custom-button">Buy</button>
+                        </div>
+                    </div>
+                    <span class="badge badge-warning badge-xl position-absolute top-left custom-badger">SALE</span>
+                </div>
+            </div>
         </div>
     </div>
     <!-- product end -->
     <!-- start form -->
-    <div class="container bottom form">
-        <h1> asdasdasdd</h1>
-        <form>
-            <div class="form-group row">
-                <div class="col-md-4">
-                    <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
-                </div>
-                <div class="col-md-4">
-                    <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
-                </div>
-                <div class="col-md-4">
-                    <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
-                </div>
+    <div class="container bottomForm">
+        <div class="row">
+            <div class="col-md-12 text-center text-white">
+                <h2>Book your Table</h2>
             </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <form>
+                    <div class="form-group row">
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" id="firstname" name="firstname"
+                                placeholder="Your name">
+                        </div>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" id="firstname" name="firstname"
+                                placeholder="Your Email*">
+                        </div>
+                        <div class="col-md-4">
+                            <select name="" id="" class ="form-control">
+                                <option value="">asdasdasd</option>
+                                <option value="">asdasdadas</option>
+                            </select>
+                        </div>
+                    </div>
 
-            <div class="form-group row">
-                <div class="col-md-12">
-                    <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
-                </div>
-            </div>
+                    <div class="form-group row">
+                        <div class="col-md-12">
+                            <textarea class="form-control" placeholder="Please write your comment" id="feedback" name="feedback" rows="12"></textarea>
+                        </div>
+                    </div>
 
-            <div class="form-group row">
-                <div class=" col-md-10">
-                    <button type="submit" class="btn btn-warning">Send Feedback</button>
-                </div>
+                    <div class="form-group row">
+                        <div class=" col-md-3">
+                            <button type="submit" class="btn btn-warning text-white custom-button">Send Message</button>
+                        </div>
+                    </div>
             </div>
+            </form>
+        </div>
     </div>
-    </form>
+
     </div>
     <!-- end form -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
