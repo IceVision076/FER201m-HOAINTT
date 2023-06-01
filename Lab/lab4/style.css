@@ -1,0 +1,66 @@
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+.navbar-dark {
+     background-color: #512DA8;
+}
+.footer {
+    background-color: #a084d2;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    background: #9575CD ;
+    color:floralwhite;
+}
+.mid {
+    background: #9575CD;
+}
+.mediablock{
+    margin: 40px 0px;
+}
+.resbtn{
+    margin: auto;
+}
+.cardcomp {
+    margin: 20px 0px;
+}
+.dateandtime {
+    width: 100%;
+}
+.radiox {
+    margin: 0% 0% 0% 2%;
+}
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.btnBlock {
+    width: 85%;
+}
+.btnlogin {
+    padding: 0% 2% 0% 0%;
+}
+.carousel {
+    background:#512DA8;
+}
+.carousel-item {
+  height: 300px;
+}
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+.custom-modal-header{
+    background-color: #512DA8;
+}
+.custom-modal-body {
+    background-color: #b7acca;
+}
