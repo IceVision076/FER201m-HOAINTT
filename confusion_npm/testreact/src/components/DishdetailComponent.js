@@ -39,7 +39,6 @@ class DishDetail extends Component {
             <div></div>
         );
     }
-
     render() {
         return (
             <div className='col-md-5'>
